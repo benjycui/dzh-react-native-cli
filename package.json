@@ -1,5 +1,5 @@
 {
-  "name": "react-native-cli",
+  "name": "dzh-react-native-cli",
   "version": "1.0.0",
   "license": "BSD-3-Clause",
   "description": "The React Native CLI tools",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/react-native.git"
+    "url": "git@github.com:benjycui/dzh-react-native-cli.git"
   },
   "scripts": {
     "test": "mocha"

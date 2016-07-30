@@ -213,7 +213,7 @@ function getInstallPackage(rnPackage) {
 }
 
 function run(root, projectName, rnPackage) {
-  exec('npm install --save --save-exact ' + getInstallPackage(rnPackage), function(e, stdout, stderr) {
+  exec('cnpm install --save --save-exact ' + getInstallPackage(rnPackage), function(e, stdout, stderr) {
     if (e) {
       console.log(stdout);
       console.error(stderr);
